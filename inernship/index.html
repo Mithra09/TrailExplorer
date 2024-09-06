@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrailExplorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="centered">
+    <h1>TrailExplorer</h1>
+    </div>
+    <form id="recommendation-form">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location"><br><br>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price"><br><br>
+        <label for="activity-type">Activity Type:</label>
+        <select id="activity-type" name="activity-type">
+            <option value="Surfing">Surfing</option>
+            <option value="Hiking">Hiking</option>
+            <option value="skydiving">skydiving</option>
+            <option value="bungee jumping">bungee jumping</option>
+            <option value="Rock Climbing">Rock Climbing</option>
+            <option value="paragliding">paragliding</option>
+        </select><br><br>
+        <label for="difficulty-level">Difficulty Level:</label>
+        <select id="difficulty-level" name="difficulty-level">
+            <option value="Easy">Easy</option>
+            <option value="Moderate">Moderate</option>
+            <option value="Hard">Hard</option>
+        </select><br><br>
+        <button id="submit-button">Get Recommendations</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
